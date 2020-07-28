@@ -1,3 +1,3 @@
 # sentiment-analysis
 
-This notebook is about sentiment analysis using machine learning algorithms.
+These notebooks are about classifying movie reviews using machine learning algorithms and deep learning models with Pytorch.
