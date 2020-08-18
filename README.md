@@ -23,8 +23,11 @@ On utilise ici un modèle de réseaux de neurones récurrents **RNN** très simp
  
  - 4 - [MachineLearning](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
 
-Le modèle FastText issu de l'article [Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759) est implémenté ici.
+Le modèle **FastText** issu de l'article [Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759) est implémenté ici.
+
  - 5 - [MachineLearning](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
+ 
+ On utilise un modèle **LSTM** combiné avec de l'**attention**. Ce modèle est décrit ici [Text Classification Research with Attention-based Recurrent Neural Networks](https://www.researchgate.net/publication/323130660_Text_Classification_Research_with_Attention-based_Recurrent_Neural_Networks).
  
  - 6 - [MachineLearning](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
  
