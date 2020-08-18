@@ -31,12 +31,12 @@ Le modèle **FastText** issu de l'article [Bag of Tricks for Efficient Text Clas
  
  - 6 - [MachineLearning](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
  
-On utilise la libraire transformers pour importer un modèle transformer pré-entraîné pour obtenir les embedding du texte, et les utiliser dans un modèle LSTM pour prédire le sentiment.
+On utilise la libraire **transformers** pour importer un modèle transformer pré-entraîné pour obtenir les embedding du texte, et les utiliser dans un modèle **LSTM** pour prédire le sentiment.
  
  - 7 - [MachineLearning](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
  
- Dans ce notebook est implémenté le modèle transformer en PyTorch décrit dans l'article [Attention is all you need](https://arxiv.org/pdf/1706.03762v5.pdf)
+ Dans ce notebook est implémenté le modèle **transformer** en PyTorch décrit dans l'article [Attention Is All You Need](https://arxiv.org/pdf/1706.03762v5.pdf)
  
  - 8 - [MachineLearning](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
 
- 
+ Enfin, on implémente le modèle **BERT** décrit [ici](https://arxiv.org/abs/1810.04805) en utilisant [Hugging Face.](https://github.com/huggingface/transformers) 
