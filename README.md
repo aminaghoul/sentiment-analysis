@@ -41,7 +41,7 @@ On utilise la libraire **transformers** pour importer un modèle transformer pr�
 
  Enfin, on implémente le modèle **BERT** décrit [ici](https://arxiv.org/abs/1810.04805) en utilisant [Hugging Face.](https://github.com/huggingface/transformers) 
  
- 
+ ## Résultats
  
  ## Références : 
  
