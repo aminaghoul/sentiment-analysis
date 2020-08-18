@@ -11,7 +11,9 @@ Ce repository contient des tutoriels sur comment faire de l'analyse de sentiment
  - spaCy en anglais : `python -m spacy download en`
  
  - transformers : `pip install transformers`
+## Données
 
+On utilise les données [IMBD.](https://ai.stanford.edu/~amaas/data/sentiment/)
 ## Tutoriels
 
  - 1 - [MachineLearning](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
