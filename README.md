@@ -54,20 +54,20 @@ Dans ce notebook est implémenté le modèle **transformer** en PyTorch décrit 
  
  ## Résultats
  
-Modèle          |Accuracy|Recall|F1 |
-----------------|--------|------|---|
-SVM - BOW       |        |      |   |  
-LR - BOW        |        |      |   |
-SVM - TF-IDF    |        |      |   |
-LR - TF-IDF     |        |      |   |
-RNN             |        |      |   |
-BiLSTM          |        |      |   |
-FastText        |        |      |   |
-CNN             |        |      |   |
-AttentionLSTM   |        |      |   |
-TransformersLSTM|        |      |   |
-Transformers    |        |      |   |
-BERT            |        |      |   |
+Modèle          |Accuracy|Recall|F1   |
+----------------|--------|------|-----|
+SVM - BOW       |        |      |     |  
+LR - BOW        |        |      |     |
+SVM - TF-IDF    |        |      |     |
+LR - TF-IDF     |        |      |     |
+RNN             | 68.21  |40.61 |50.41|
+LSTM            | 88.67  |45.54 |59.56|
+FastText        | 87.22  |45.42 |59.92|
+CNN             | 84.97  |46.92 |60.15|
+AttentionLSTM   | 82.00  |44.94 |57.80|
+TransformersLSTM| 90.31  | ||
+Transformers    | 73.31  | ||
+BERT            | 91.77  | ||
    
  ## Références : 
  
