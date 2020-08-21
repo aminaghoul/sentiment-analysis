@@ -54,9 +54,20 @@ Dans ce notebook est implémenté le modèle **transformer** en PyTorch décrit 
  
  ## Résultats
  
-Modèle  |SVM - BOW|LR - BOW|SVM - TF-IDF|LR - TF-IDF|RNN|BiLSTM|FastText|CNN|AttentionLSTM|TransformersLSTM|Transformers|BERT| 
-Accuracy|---------|--------|------------|-----------|---|------|--------|---|-------------|----------------|------------|----|
-        |         |        |            |           |   |      |        |   |             |                |            |    |   
+Modèle          |Accuracy|Recall|F1 |
+----------------|--------|------|---|
+SVM - BOW       |        |      |   |  
+LR - BOW        |        |      |   |
+SVM - TF-IDF    |        |      |   |
+LR - TF-IDF     |        |      |   |
+RNN             |        |      |   |
+BiLSTM          |        |      |   |
+FastText        |        |      |   |
+CNN             |        |      |   |
+AttentionLSTM   |        |      |   |
+TransformersLSTM|        |      |   |
+Transformers    |        |      |   |
+BERT            |        |      |   |
    
  ## Références : 
  
