@@ -65,7 +65,7 @@ LSTM            | 88.67  |45.54 |59.56|
 FastText        | 87.22  |45.42 |59.92|
 CNN             | 84.97  |46.92 |60.15|
 AttentionLSTM   | 82.00  |44.94 |57.80|
-TransformersLSTM| 90.31  | ||
+TransformersLSTM| 90.31  |47.00 |61.73|
 Transformers    | 73.31  | ||
 BERT            | 91.77  | ||
    
