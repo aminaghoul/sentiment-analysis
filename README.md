@@ -54,10 +54,10 @@ Dans ce notebook est implémenté le modèle **transformer** en PyTorch décrit 
  
  ## Résultats
  
-Modèle |   |   |   |   |   |   |   |   |   |   |   |   |   |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|   |   |   |   |   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |   |   |   |   |
+Modèle  |SVM - BOW|LR - BOW|SVM - TF-IDF|LR - TF-IDF|RNN|BiLSTM|FastText|CNN|AttentionLSTM|TransformersLSTM|Transformers|BERT| 
+Accuracy|---------|--------|------------|-----------|---|------|--------|---|-------------|----------------|------------|----|
+        |         |        |            |           |   |      |        |   |             |                |            |    |   
+   
  ## Références : 
  
  - [pytorch-sentiment-analysis ](https://github.com/bentrevett/pytorch-sentiment-analysis#tutorials) 
