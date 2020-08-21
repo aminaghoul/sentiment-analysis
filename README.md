@@ -56,10 +56,10 @@ Dans ce notebook est implémenté le modèle **transformer** en PyTorch décrit 
  
 Modèle          |Accuracy|Recall|F1   |
 ----------------|--------|------|-----|
-SVM - BOW       |        |      |     |  
-LR - BOW        |        |      |     |
-SVM - TF-IDF    |        |      |     |
-LR - TF-IDF     |        |      |     |
+SVM - BOW       | 87.01  |      |     |  
+LR - BOW        | 87.00  |      |     |
+SVM - TF-IDF    | 88.09  |      |     |
+LR - TF-IDF     | 88.10  |      |     |
 RNN             | 68.21  |40.61 |50.41|
 LSTM            | 88.67  |45.54 |59.56|
 FastText        | 87.22  |45.42 |59.92|
