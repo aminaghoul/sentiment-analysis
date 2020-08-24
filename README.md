@@ -56,17 +56,17 @@ Dans ce notebook est implémenté le modèle **transformer** en PyTorch décrit 
  
 Modèle          |Accuracy|Nombre de paramètres|
 ----------------|--------|--------------------|
-SVM - BOW       | 86.95  |
-LR - BOW        | 87.08  |
-SVM - TF-IDF    | 87.80  |
-LR - TF-IDF     | 87.82  |
-RNN             | 68.21  |
-LSTM            | 88.67  |
-FastText        | 87.22  |
-CNN             | 84.97  |
-AttentionLSTM   | 82.00  |
-TransformersLSTM| 90.31  |
-Transformers    | 73.31  |
+SVM - BOW       | 86.95  |                    |
+LR - BOW        | 87.08  |                    |
+SVM - TF-IDF    | 87.80  |                    | 
+LR - TF-IDF     | 87.82  |                    |
+RNN             | 68.21  |     2,684,009      |
+LSTM            | 88.67  |     4,810,857      |
+FastText        | 87.22  |     2,500,301      |
+CNN             | 84.97  |     2,620,801      |
+AttentionLSTM   | 82.00  |     8,072,506      |
+TransformersLSTM| 90.31  |     3,678,721      |
+Transformers    | 73.31  |     6,928,642      |
 BERT            | 91.77  | 
    
  ## Références : 
