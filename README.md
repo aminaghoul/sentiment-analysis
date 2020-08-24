@@ -54,8 +54,8 @@ Dans ce notebook est implémenté le modèle **transformer** en PyTorch décrit 
  
  ## Résultats
  
-Modèle          |Accuracy|
-----------------|--------|
+Modèle          |Accuracy|Nombre de paramètres|
+----------------|--------|--------------------|
 SVM - BOW       | 86.95  |
 LR - BOW        | 87.08  |
 SVM - TF-IDF    | 87.80  |
