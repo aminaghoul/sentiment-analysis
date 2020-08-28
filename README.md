@@ -72,4 +72,4 @@ BERT            | 91.77  |
  ## Références : 
  
  - [pytorch-sentiment-analysis ](https://github.com/bentrevett/pytorch-sentiment-analysis#tutorials) 
- 
+ https://digitalsandbox:8000/user/ghoula/lab? 
