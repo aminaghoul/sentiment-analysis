@@ -68,6 +68,7 @@ CNN             | 84.97  |     2,620,801      |
 AttentionLSTM   | 83.27  |     39,559,466     |
 AttentionGRU    | 80.28  |     39,273,770     |
 TransformersLSTM| 90.31  |     3,678,721      |
+TransformersGRU | 90.31  |     2,759,169      |
 Transformers    | 73.31  |     6,928,642      |
 BERT            | 91.77  | 
    
