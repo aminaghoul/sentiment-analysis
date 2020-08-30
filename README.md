@@ -65,7 +65,7 @@ LSTM            | 88.67  |     4,810,857      |
 GRU             | 91.01  |     4,233,321      |
 FastText        | 87.22  |     2,500,301      |
 CNN             | 84.97  |     2,620,801      |
-AttentionLSTM   | 82.00  |     8,072,506      |
+AttentionLSTM   | 83.27  |     39,559,466     |
 AttentionGRU    | 80.28  |     39,273,770     |
 TransformersLSTM| 90.31  |     3,678,721      |
 Transformers    | 73.31  |     6,928,642      |
