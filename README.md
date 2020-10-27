@@ -72,18 +72,6 @@ TransformersGRU | 91.36  |     2,759,169      |
 Transformers    | 73.31  |     6,928,642      |
 BERT            | 91.77  | 
 
-Modèle          |Accuracy|Nombre de paramètres|
-----------------|--------|--------------------|
-SVM - BOW       | 86.95  |                    |
-LR - BOW        | 87.08  |                    |
-SVM - TF-IDF    | 87.80  |                    | 
-LR - TF-IDF     | 87.82  |                    |
-BiLSTM          | 88.67  |     4,810,857      |
-CNN             | 84.97  |     2,620,801      |
-AttentionBiLSTM | 83.27  |     39,559,466     |
-Transformers    | 73.31  |     6,928,642      |
-BERT            | 91.77  | 
-   
    
  ## Références : 
  
