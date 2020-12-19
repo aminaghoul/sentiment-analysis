@@ -54,23 +54,23 @@ Dans ce notebook est implémenté le modèle **transformer** en PyTorch décrit 
  
  ## Résultats
  
-Modèle          |Accuracy|
-----------------|--------|
-SVM - BOW       | 86.95  |                    
-LR - BOW        | 87.08  |                    
-SVM - TF-IDF    | 87.80  |                    
-LR - TF-IDF     | 87.82  | 
-RNN             | 68.21  |  
-BiLSTM          | 88.67  | 
-GRU             | 91.01  |  
-FastText        | 87.22  |  
-CNN             | 84.97  |   
-AttentionLSTM   | 83.27  |   
-AttentionGRU    | 80.28  |    
-TransformersLSTM| 90.31  |  
-TransformersGRU | 91.36  |  
-Transformers    | 73.31  |   
-BERT            | 91.77  | 
+Modèle          |Accuracy sur le test|
+----------------|--------------------|
+SVM - BOW       | 86.95              |                    
+LR - BOW        | 87.08              |                    
+SVM - TF-IDF    | 87.80              |                    
+LR - TF-IDF     | 87.82              | 
+RNN             | 68.21              |  
+BiLSTM          | 88.67              | 
+GRU             | 91.01              |  
+FastText        | 87.22              |  
+CNN             | 84.97              |   
+AttentionLSTM   | 83.27              |   
+AttentionGRU    | 80.28              |    
+TransformersLSTM| 90.31              |  
+TransformersGRU | 91.36              |  
+Transformers    | 73.31              |   
+BERT            | 91.77              | 
 
    
  ## Références : 
