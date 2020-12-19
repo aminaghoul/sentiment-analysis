@@ -20,13 +20,17 @@ On utilise les données [IMBD.](https://ai.stanford.edu/~amaas/data/sentiment/)
  
  Dans ce premier notebook, on utilise les librairies **sklearn** et **nltk** pour faire de l'analyse de sentiments à l'aide de méthode statistique de **Bag-of-words**, **TF-IDF** et d'algorithmes de machine learning : **SVM** et **Régression Logistique**.
 
- - 1 - [RNN](https://github.com/aminaghoul/sentiment-analysis/blob/master/1-RNN-Simple.ipynb)
+ - 1 - [RNN](https://github.com/aminaghoul/sentiment-analysis/blob/master/1_RNN_Simple.ipynb)
 
 On utilise ici un modèle de réseaux de neurones récurrents **RNN** très simple.
 
- - 2 - [LSTM](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb)
+ - 2a - [LSTM](https://github.com/aminaghoul/sentiment-analysis/blob/master/2a_LSTM.ipynb)
  
  Le modèle précédent se complexifie dans ce notebook, on utilise un modèle **LSTM**, bidirectionnel, multi-couches. 
+ 
+ - 2b - [GRU](https://github.com/aminaghoul/sentiment-analysis/blob/master/2b_GRU.ipynb)
+ 
+ Le modèle précédent se complexifie dans ce notebook, on utilise un modèle **GRU**, bidirectionnel, multi-couches. 
  
  - 3 - [FastText](https://github.com/aminaghoul/sentiment-analysis/blob/master/3-FastText.ipynb)
 
@@ -36,11 +40,19 @@ Le modèle **FastText** issu de l'article [Bag of Tricks for Efficient Text Clas
  
 On utilise le modèle **CNN** pour l'analyse de sentiments.
  
- - 5 - [AttentionLSTM](https://github.com/aminaghoul/sentiment-analysis/blob/master/5-AttentionLSTM.ipynb) 
+ - 5a - [AttentionGRU](https://github.com/aminaghoul/sentiment-analysis/blob/master/5a_AttentionGRU.ipynb) 
+ 
+ On utilise un modèle **GRU** combiné avec de l'**attention**.
+ 
+ - 5b - [AttentionLSTM](https://github.com/aminaghoul/sentiment-analysis/blob/master/5b_AttentionLSTM.ipynb) 
  
  On utilise un modèle **LSTM** combiné avec de l'**attention**. Ce modèle est décrit dans l'article [Text Classification Research with Attention-based Recurrent Neural Networks.](https://www.researchgate.net/publication/323130660_Text_Classification_Research_with_Attention-based_Recurrent_Neural_Networks)
  
- - 6 - [TransformersLSTM](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb) 
+ - 6a - [TransformersGRU](https://github.com/aminaghoul/sentiment-analysis/blob/master/6a-TransformersGRU.ipynb) 
+ 
+On utilise la libraire **transformers** pour importer un modèle transformer pré-entraîné pour obtenir les embedding du texte, et les utiliser dans un modèle **GRU** pour prédire le sentiment.
+
+ - 6b - [TransformersLSTM](https://github.com/aminaghoul/sentiment-analysis/blob/master/6b-TransformersLSTM.ipynb) 
  
 On utilise la libraire **transformers** pour importer un modèle transformer pré-entraîné pour obtenir les embedding du texte, et les utiliser dans un modèle **LSTM** pour prédire le sentiment.
  
@@ -61,7 +73,7 @@ LR - BOW        | 87.08              |
 SVM - TF-IDF    | 87.80              |                    
 LR - TF-IDF     | 87.82              | 
 RNN             | 68.21              |  
-BiLSTM          | 88.67              | 
+LSTM            | 88.67              | 
 GRU             | 91.01              |  
 FastText        | 87.22              |  
 CNN             | 84.97              |   
