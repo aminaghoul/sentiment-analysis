@@ -70,7 +70,7 @@ AttentionGRU    | 80.28              |
 TransformersLSTM| 90.31              |  
 TransformersGRU | 91.36              |  
 Transformers    | 73.31              |   
-BERT            | 91.77              | 
+**BERT**            | **91.77**              | 
 
    
  ## Références : 
