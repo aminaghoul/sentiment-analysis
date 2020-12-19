@@ -85,7 +85,7 @@ Transformers    | 73.31              |
 **BERT**            | **91.77**              | 
 
    
- ## Références : 
+ ## Référence : 
  
- - [pytorch-sentiment-analysis ](https://github.com/bentrevett/pytorch-sentiment-analysis#tutorials) 
+ - [pytorch-sentiment-analysis](https://github.com/bentrevett/pytorch-sentiment-analysis#tutorials) 
 
